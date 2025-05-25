@@ -1,8 +1,9 @@
 "use client";
 import Link from "next/link";
 import Image from "next/image";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { RxHamburgerMenu } from "react-icons/rx";
+
 import {
   HiBeaker,
   HiBookmarkAlt,
@@ -11,14 +12,26 @@ import {
   HiUser,
 } from "react-icons/hi";
 import Logo from "@/assets/Images/Becode.png"
+import { RiContactsFill } from "react-icons/ri";
 
 export default function MobileMenu() {
+  const [mounted, setMounted] = useState(false);
   const [navShow, setNavShow] = useState(false);
+
+   useEffect(() => {
+      setMounted(true);
+    }, []);
+
   const data = [
     {
       title: "About",
       href: "/about",
       icon: HiUser,
+    },
+     {
+      title: "Experience",
+      href: "/experience",
+      icon: HiBookmarkAlt,
     },
     {
       title: "Projects",
@@ -26,14 +39,9 @@ export default function MobileMenu() {
       icon: HiBeaker,
     },
     {
-      title: "Blog",
-      href: "/blog",
-      icon: HiBookmarkAlt,
-    },
-    {
-      title: "Photos",
-      href: "/photos",
-      icon: HiCamera,
+      title: "Contact",
+      href: "/contact",
+      icon: RiContactsFill,
     },
   ];
 
@@ -55,6 +63,7 @@ export default function MobileMenu() {
         onClick={onToggleNav}
         className="md:hidden dark:bg-primary-bg bg-secondary-bg border dark:border-zinc-800 border-zinc-200 rounded-md p-2"
       >
+        
         <RxHamburgerMenu className="text-xl" />
       </button>
       <div
@@ -64,8 +73,13 @@ export default function MobileMenu() {
       >
         <div className="flex items-center justify-between mt-6 px-8">
         <Link href="/">
-            <Image src={Logo} width={100} height={100} className="" alt="logo" />
-          </Link>
+          {/* Ensure theme detection only runs after mounting */}
+          {mounted && (
+           <div className="w-8 h-8 bg-slate-600 text-white text-lg font-[700] dark:text-white flex items-center justify-center rounded-4">
+            JE
+           </div>
+          )}
+        </Link>
 
           <button
             aria-label="Toggle Menu"
