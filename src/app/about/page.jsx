@@ -57,7 +57,7 @@ export default function About() {
        <motion.img 
   src={profile.profileImage}
   alt={profile.fullName} 
-  className="rounded-full w-40 h-40 border-4 border-[#57A773] shadow-2xl"
+  className="rounded-full w-40 h-40 grayscale-[100] hover:grayscale-0 shadow-2xl"
   whileHover={{ scale: 1.1 }}
 />
 

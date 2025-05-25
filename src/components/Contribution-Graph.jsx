@@ -12,13 +12,12 @@ export default function GithubCalendarComponent() {
   const scheme =
     theme === "light" ? "light" : theme === "dark" ? "dark" : systemTheme;
 
-  // Ensure theme is set after rendering to prevent mismatch
   useEffect(() => {
     setServerTheme(scheme);
   }, [scheme]);
 
   return (
-    <section>
+    <section className="w-full overflow-x-auto">
       <Slide delay={0.16} className="mb-8">
         <h2 className="font-incognito text-4xl font-bold tracking-tight">
           Contribution Graph
@@ -26,14 +25,19 @@ export default function GithubCalendarComponent() {
       </Slide>
 
       <Slide delay={0.18}>
-        <div className="flex items-center space-x-6">
+        <div className="flex flex-col md:flex-row md:items-start gap-6">
           {/* Contribution Graph Container */}
-          <div className="dark:bg-[#27272b66] bg-[#fafafa66] border dark:border-zinc-800 border-zinc-200 p-8 rounded-lg max-w-fit max-h-fit">
-            <GitHubCalendar username="jesam33" year={year} blockSize={15} colorScheme={serverTheme}  />
+          <div className="dark:bg-[#27272b66] bg-[#fafafa66] w-full overflow-x-auto border dark:border-zinc-800 border-zinc-200 p-4 sm:p-6 md:p-8 rounded-lg">
+            <GitHubCalendar
+              username="jesam33"
+              year={year}
+              blockSize={15}
+              colorScheme={serverTheme}
+            />
           </div>
 
           {/* Year Selection */}
-          <div className="flex flex-col gap-2 mb-4">
+          <div className="flex md:flex-col flex-row flex-wrap gap-2 md:mb-4">
             {[2021, 2022, 2023, 2024, 2025].map((y) => (
               <button
                 key={y}

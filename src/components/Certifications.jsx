@@ -6,15 +6,15 @@ import { Slide } from "@/app/Animation/Slide";
 const certifications = [
   {
     preview: cert1,
-    pdf: "/certificates/cert1.pdf",
+    pdf: "/cert_pdf_1.pdf",
     alt: "Frontend Developer Certificate",
-    caption: "Frontend Developer - XYZ Academy",
+    caption: "Frontend Developer (React/Nextjs) - Kodecamp, Nigeria",
   },
   {
     preview: cert2,
-    pdf: "/certificates/cert2.pdf",
+    pdf: "/cert_pdf_2.pdf",
     alt: "JavaScript Mastery Certificate",
-    caption: "JavaScript Mastery - ABC Platform",
+    caption: "Frontend Development (Beginner) - Kodecamp, Nigeria",
   },
 ];
 
