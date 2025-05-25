@@ -1,6 +1,6 @@
 import urbanCycling from "@/assets/Images/urban-cycling.png";
 import unical from "@/assets/Images/unical.jpeg";
-import Kodecamp from "@/assets/Images/Kodecamp.png";
+import Kodecamp from "../../assets/Images/kodecamp.png";
 import Beecode from "@/assets/Images/Becode.png";
 import piloto from "@/assets/Images/piloto.png";
 import Greenpedal from "@/assets/Images/Green-pedal.png";
