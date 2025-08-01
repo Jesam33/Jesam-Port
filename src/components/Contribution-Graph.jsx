@@ -38,7 +38,7 @@ export default function GithubCalendarComponent() {
 
           {/* Year Selection */}
           <div className="flex md:flex-col flex-row flex-wrap gap-2 md:mb-4">
-            {[2021, 2022, 2023, 2024, 2025].map((y) => (
+            {[2023, 2024, 2025].map((y) => (
               <button
                 key={y}
                 onClick={() => setYear(y)}

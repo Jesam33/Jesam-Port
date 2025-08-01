@@ -116,7 +116,7 @@ export default async function Home() {
               AKama Gospel . O .
             </h1>
             <p className="text-base dark:text-zinc-400 text-zinc-600 leading-relaxed">
-              Highly motivated and experienced academic with over 5 years in front-end web development, specializing in building creative and functional sites. perfect user-experience.            </p>
+              Highly motivated and experienced academic with over 3 years in front-end web development and 2 years in back end web development, specializing in building creative and functional sites. perfect user-experience.            </p>
           </Slide>
           <Slide delay={0.1}>
             <Social type="social" />

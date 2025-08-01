@@ -1,17 +1,17 @@
 export const projects = [
   {
-    title: "Mojoda Fc",
-    description: "A football academy website showcasing training programs, coaching staff, and player development using React and Tailwind CSS.",
-    techStack: "Vuejs, Tailwind CSS, Vercel",
+    title: "Nova Core",
+    description: "A responsive cake shop website featuring custom orders, seasonal menus, and baker profiles, developed using React and Tailwind CSS for a sweet user experience.",
+    techStack: "Nextjs, Tailwind CSS, Vercel",
     year: 2025,
-    url: "https://github.com/yourusername/portfolio-website",
+    url: "https://nova-core-one.vercel.app/",
   },
   {
-    title: "Richesse",
-    description: "A small chops logistics platform designed to streamline supply chain management, track deliveries, and optimize inventory for food distributors.",
-    techStack: "React,  Firebase",
-    year: 2023,
-    url: "https://richesse.vercel.app/",
+    title: "Leap Foundation",
+    description: "We are a non-profit organization dedicated to providing educational support to less privileged children. Our mission is to ensure every child, regardless of background, has access to quality education, learning materials, and opportunities to thrive.",
+    techStack: "Nextjs,  Appwrite, Tailwind CSS",
+    year: 2024,
+    url: "https://leap-foundation.vercel.app/",
   },
   {
     title: "Kodecamp x",
@@ -25,14 +25,14 @@ export const projects = [
     description: "A professional photography business website showcasing portfolio galleries, service offerings, and client testimonials, built with React and Tailwind CSS.",
     techStack: "Reactjs, firebase, Tailwind CSS",
     year: 2023,
-    url: "https://x-project-fe-ten.vercel.app/",
+    
   },
     {
     title: "Perka Studios Invoice",
   description: "An e-invoicing system that generates and sends professional invoices directly to clients’ emails, streamlining billing and payment tracking.",
     techStack: "Nextjs, Nodemailer, SSR, Tailwind CSS",
     year: 2024,
-    url: "https://x-project-fe-ten.vercel.app/",
+    url: "https://receipt-sepia.vercel.app/",
   },
       {
     title: "Bitcloud",
@@ -44,9 +44,9 @@ export const projects = [
    {
     title: "QuizGo",
     description: "An interactive quiz app that challenges users with multiple-choice questions, tracks scores, and provides instant feedback for effective learning.",
-    techStack: "Nextjs, Tailwind CSS",
+    techStack: "Html, Javascript, CSS",
     year: 2023,
-    url: "https://bit-cloud.vercel.app/",
+    url: "https://jesam33.github.io/quiz/",
   },
   {
     title: "Subby App",
@@ -56,10 +56,24 @@ export const projects = [
     url: "http://subby-frontend-test-1055217977764.europe-west1.run.app",
   },
   {
-    title: "Techrity",
+    title: "Techrity Dashboard",
   description: "A clean and robust dashboard design featuring intuitive navigation, real-time data visualization, and customizable widgets for enhanced user experience.",
     techStack: "Nextjs, Tailwind CSS",
-    year: 2023,
+    year: 2025,
     url: "https://mently-f-etest-eta.vercel.app/",
+  },
+  {
+    title: "Techrity Dashboard",
+  description: "A clean and robust dashboard design featuring intuitive navigation, real-time data visualization, and customizable widgets for enhanced user experience.",
+    techStack: "Nextjs, Tailwind CSS",
+    year: 2025,
+    url: "https://mently-f-etest-eta.vercel.app/",
+  },
+  {
+    title: "Ada Eboji",
+  description: "A relationship mentor website",
+    techStack: "Nextjs, Tailwind CSS, Sanity",
+    year: 2025,
+    url: "https://www.adaeboji.org",
   },
 ];
