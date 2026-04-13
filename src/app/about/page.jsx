@@ -11,8 +11,8 @@ import CertificationsSection from "@/components/Certifications";
 export default function About() {
   const profile = {
     fullName: "Akama Gospel Obasesam",
-    location: "Abia State || Rivers State || Calabar State, Nigeria",
-    bio: "Passionate researcher and educator specializing in Urban and Regional Development, Transportation Systems Planning, and Geographic Information Systems.",
+    location: "Lagos State, Nigeria",
+    bio: "A results-oriented Frontend Engineer with 4+ years of experience in designing, developing, and deploying scalable web applications. Proficient in React, Next.js, and Vue.js, with a strong foundation in DevOps practices and cloud infrastructure. Proven ability to lead technical projects, optimize performance, and deliver high-quality solutions in fast-paced environments.",
     profileImage: "/Jesam-1.jpg",
     resumeURL: "/CV.pdf",
     email: " obasesamgospel@gmail.com",

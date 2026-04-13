@@ -113,7 +113,7 @@ export default async function Home() {
         <div className="lg:max-w-2xl max-w-2xl">
           <Slide>
             <h1 id="typing-text" className="font-incognito font-semibold tracking-tight text-3xl sm:text-5xl mb-6 lg:leading-[3.7rem] leading-tight lg:min-w-[700px] min-w-full">
-              AKama Gospel . O .
+              Akama Gospel . O .
             </h1>
             <p className="text-base dark:text-zinc-400 text-zinc-600 leading-relaxed">
               Highly motivated and experienced academic with over 3 years in front-end web development and 2 years in back end web development, specializing in building creative and functional sites. perfect user-experience.            </p>
