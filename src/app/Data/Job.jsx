@@ -28,7 +28,6 @@ const jobsData = [
     description: "Led the development of a comprehensive SaaS platform, taking projects from initial concept through design, development, and deployment. Architected scalable, enterprise-grade solutions, implementing best practices in code quality, security, and performance optimization. Collaborated with cross-functional teams to deliver high-quality digital products within tight timelines.",
     logo: Iungo,
   },
-  
    {
     _id: "3",
     name: "Beecode",
