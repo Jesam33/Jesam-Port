@@ -5,8 +5,7 @@ import Beecode from "@/assets/Images/Becode.png";
 import piloto from "@/assets/Images/piloto.png";
 import Greenpedal from "@/assets/Images/Green-pedal.png";
 import Seabed from "@/assets/Images/seabed.png";
-import Iungo from "@/assets/Images/iungo.png";
-
+import Iungo from "@/assets/Images/Iungo.png"
 const defaultImg = "https://placehold.co/600x400/png";
 
 const jobsData = [
@@ -19,7 +18,7 @@ const jobsData = [
     description: "Lead frontend architecture and DevOps operations for enterprise-level fintech applications serving thousands of active users. Architected and maintained CI/CD pipelines using Docker and AWS, reducing deployment time by 60%. Implemented infrastructure-as-code and monitoring solutions, maintaining 99.9% application uptime. Collaborated with backend teams to design secure, scalable microservices architectures. Mentored development teams on DevOps best practices, code quality standards, and modern frontend patterns.",
     logo: Seabed,
   },
-   {
+  {
     _id: "2",
     name: "Iungo",
     jobTitle: "Senior Fullstack/Mobile Engineer ",
@@ -28,7 +27,7 @@ const jobsData = [
     description: "Led the development of a comprehensive SaaS platform, taking projects from initial concept through design, development, and deployment. Architected scalable, enterprise-grade solutions, implementing best practices in code quality, security, and performance optimization. Collaborated with cross-functional teams to deliver high-quality digital products within tight timelines.",
     logo: Iungo,
   },
-   {
+  {
     _id: "3",
     name: "Beecode",
     jobTitle: "Senior Frontend Engineer",
@@ -37,7 +36,7 @@ const jobsData = [
     description: "Contributed to web development projects, applying frontend skills to support architectural design and urban planning initiatives. Collaborated with international teams to deliver effective digital solutions within tight timelines.",
     logo: Beecode,
   },
-  
+
   {
     _id: "4",
     name: "Vickel Co",
@@ -63,7 +62,7 @@ const jobsData = [
     jobTitle: "Frontend Engineer",
     startDate: "2024-03-01",
     endDate: "2025-02-01",
-   description: "Contributed to building and maintaining web applications using modern frontend technologies. Collaborated with cross-functional teams to deliver responsive and user-friendly digital solutions aligned with client needs.",
+    description: "Contributed to building and maintaining web applications using modern frontend technologies. Collaborated with cross-functional teams to deliver responsive and user-friendly digital solutions aligned with client needs.",
     logo: defaultImg,
   },
 ];
